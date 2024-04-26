@@ -25,68 +25,95 @@
 
 </head>
 <body>
-    <!-- Nav Section -->
-    <section class="nav-section">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a style="color:black;font-weight: 800;" class="navbar-brand" href="#">Prince Travels</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Book</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Packge</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Service</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                </ul>
-                  <a class="btn btn-light me-2" href="#" role="button">Register</a>
-                  <a class="btn btn-light" href="#" role="button">Sign in</a>
-              </div>
-            </div>
-          </nav>
+  <!-- Video Home-Background -->
+  <div class="video-container">
+    <video autoplay muted loop>
+      <source src="./Media/51585-465226627.mp4" type="video/mp4">
+    </video>
 
-    </section>
+    <!-- Content in Home-page -->
+    <div class="content">
+      <h1>SET SAIL ON YOUR ADVENTURE</h1><br>
+      <h2>Explore the World with Us!</h2>
+      <button class="btn btn-primary">Explore</button>
+    </div>
 
 
-    <div class="main">
-      <!-- Home Section -->
-      <section class="home-section" style="position: relative;">
-          <div class="container-fluid px-0">
-              <video autoplay muted loop id="home-video" width="100%" height="100%">
-                  <source src="./Media/51585-465226627.mp4" type="video/mp4">
-              </video>
+    <!-- Nav Bar -->
+  
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="./Media/logo 1.png" alt="Logo" width="90" height="50" class="d-inline-block align-text-top">
+        <a class="navbar-brand" href="#">TRAVELING</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PLACES TO GO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Navbar text with an inline element
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to Our Website</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur blanditiis neque et. Voluptates voluptate maxime neque laborum omnis quas veniam possimus, eligendi porro aliquam, exercitationem, ratione esse numquam dolor cum.</p>
+            <button class="btn btn-primary">Explore</button>
           </div>
-          <div class=" welcome-note row border">
-              <h2>Set Sail on Your Adventure</h2>
-              <h1>Explore the World with Us!</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe illum veniam voluptas earum voluptates, doloremque, rem laboriosam sequi labore ratione quam tempora exercitationem tempore ducimus natus! Eaque vitae reprehenderit distinctio.</p>
-              <a class="btn btn-primary btn-lg" href="#" role="button">Explore</a>
+        </div>
+        <div class="carousel-item">
+          
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
           </div>
-  
-            
-  
-  
-      </section>
-  
-  
+        </div>
+        <div class="carousel-item">
+         
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    </div>    
 
+  </div>
 
 </body>
 </html>

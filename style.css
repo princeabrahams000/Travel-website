@@ -1,54 +1,56 @@
 *{
     margin: 0px;
     padding: 0px;
-    
-   
- /*    font-family: "Open Sans", sans-serif;
+    /* font-family: "Lora", serif; */
+    /*    font-family: "Open Sans", sans-serif; */
     font-family: "Poppins", sans-serif;
-    font-family: "Lobster", sans-serif; */
-    font-family: "Lora", serif;
+    /*font-family: "Lobster", sans-serif;  */
     /* font-family: "Anton", sans-serif; */
+    box-sizing: border-box;
+    
 }
 
+/* Video Background-Home page */
 
+/* body, html {
+    height: 100%;
+    margin: 0;
+  } */
 
-
-/* Nav Section */
-
-.nav-section{
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-
-.navbar{
-    background-color: rgba(39, 90, 161, 0.626);
-}
-
-
-
-
-
-/* Home Section */
-
-.home-section{
-    background-attachment: fixed;
-    width: 100%;
+  .video-container {
+    position: relative;
     height: 100vh;
+    overflow: hidden;
+  }
 
-}
-
-.welcome-note {
+  .video-container video {
     position: absolute;
-    top: 70%;
-    left: 50%; 
-    transform: translate(-50%, -50%); /* Centers the div */
-    z-index: 1; 
-    font-family: "Lobster", sans-serif;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-40%, -40%);
+    z-index: -1;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black
+   
+  }
+
+  /* Carousel Moving Text */
+    #carouselExampleCaptions{
+    position: absolute;
+    
+    
 }
-
-
-
 
 
 
