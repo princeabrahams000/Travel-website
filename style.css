@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
     /* font-family: "Lora", serif; */
-    /*    font-family: "Open Sans", sans-serif; */
-    font-family: "Poppins", sans-serif;
+       font-family: "Open Sans", sans-serif;
+   /*  font-family: "Poppins", sans-serif; */
     /*font-family: "Lobster", sans-serif;  */
     /* font-family: "Anton", sans-serif; */
     box-sizing: border-box;
@@ -27,8 +27,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 50%;
+    min-height: 50%;
     width: auto;
     height: auto;
     transform: translate(-40%, -40%);
@@ -41,8 +41,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: black
    
+  }
+
+  .heading1{
+    font-size: 40px;
+    font-weight: 100px;
+    font-family: "Alfa Slab One", serif;
+    color:rgb(10, 32, 54)
+    
+  }
+
+  .heading2{
+    font-size:30px;
+    font-weight: 700;
+    color:rgb(10, 32, 54)
+
   }
 
   /* Carousel Moving Text */
