@@ -1,11 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* font-family: "Lora", serif; */
-       font-family: "Open Sans", sans-serif;
-   /*  font-family: "Poppins", sans-serif; */
-    /*font-family: "Lobster", sans-serif;  */
-    /* font-family: "Anton", sans-serif; */
+    font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
     
 }
@@ -48,7 +44,7 @@
     font-size: 40px;
     font-weight: 100px;
     font-family: "Alfa Slab One", serif;
-    color:rgb(10, 32, 54)
+    color:rgb(1, 9, 16)
     
   }
 
