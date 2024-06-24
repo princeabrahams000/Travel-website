@@ -6,70 +6,10 @@
     
 }
 
-/* Video Background-Home page */
 
-/* body, html {
-    height: 100%;
-    margin: 0;
-  } */
 
-  .video-container {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-  }
 
-  .video-container video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 50%;
-    min-height: 50%;
-    width: auto;
-    height: auto;
-    transform: translate(-40%, -40%);
-    z-index: -1;
-  }
 
-  .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-   
-  }
-
-  .heading1{
-    font-size: 40px;
-    font-weight: 100px;
-    font-family: "Alfa Slab One", serif;
-    color:rgb(1, 9, 16)
-    
-  }
-
-  .heading2{
-    font-size:30px;
-    font-weight: 700;
-    color:rgb(10, 32, 54)
-
-  }
-
-  /* Carousel Moving Text */
-    #carouselExampleCaptions{
-    position: absolute;
-    
-    
-}
-
-/* Places to go section */
-.places-to-go{
-  width: 100%;
-  height: 100vh;
-  background-color: #D9AFD9;
-background-image: linear-gradient(0deg, #D9AFD9 0%, #c7eef5 100%);
-
-}
 
 
 
